@@ -11,6 +11,7 @@
 		A47E3C852552C6F8002C7910 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47E3C842552C6F8002C7910 /* ContentView.swift */; };
 		A47E3C872552C6FA002C7910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47E3C862552C6FA002C7910 /* Assets.xcassets */; };
 		A47E3C8A2552C6FA002C7910 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47E3C892552C6FA002C7910 /* Preview Assets.xcassets */; };
+		A47E3C942552CA23002C7910 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A47E3C932552CA23002C7910 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A47E3C862552C6FA002C7910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A47E3C892552C6FA002C7910 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A47E3C8B2552C6FA002C7910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47E3C932552CA23002C7910 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		A47E3C812552C6F8002C7910 /* NotyNoteCard */ = {
 			isa = PBXGroup;
 			children = (
+				A47E3C922552CA12002C7910 /* fonts */,
 				A47E3C822552C6F8002C7910 /* NotyNoteCardApp.swift */,
 				A47E3C842552C6F8002C7910 /* ContentView.swift */,
 				A47E3C862552C6FA002C7910 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				A47E3C892552C6FA002C7910 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A47E3C922552CA12002C7910 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A47E3C932552CA23002C7910 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47E3C942552CA23002C7910 /* Pacifico-Regular.ttf in Resources */,
 				A47E3C8A2552C6FA002C7910 /* Preview Assets.xcassets in Resources */,
 				A47E3C872552C6FA002C7910 /* Assets.xcassets in Resources */,
 			);
